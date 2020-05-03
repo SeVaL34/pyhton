@@ -1,0 +1,124 @@
+<html>
+  <head>
+     <title>My Webpage</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+     	input[type=text] {
+     		background-color: white;
+     	}
+     	input[type=number]{
+     		background-color: blue;
+     	}
+     button{
+     	width: 200px;
+     	height: 50px;
+     	font-size: 24px;
+     	background-color: green;
+        }
+        button:hover{
+        	background-color: orange;
+        } 
+        a::before{
+        	content: "\21d2 Click here: ";
+        	font-weight: bold;
+        	font-family: courier;
+        }
+        @media print{
+        	.screen-only{
+        		display: none;
+        	}
+        }
+        @media(min-width: 500px ){
+        	body {
+        		background-color: red;
+        	}
+        }
+        @media (max-width: 499px ){
+        	body {
+        		background-color: blue;
+        	}
+        }
+        .container{
+        	display: flex;
+        	flex-wrap: wrap;
+        }
+        .container>div{
+        	background-color: springgreen;
+        	font-size: 20px;
+        	margin: 20px;
+        	padding: 20px;
+        	width: 200px;
+        }
+        $color: white;
+
+        ul{
+        	font-size: 14px;
+        	color: $color;
+        }
+        ol{
+        	font-size: 18px;
+        	color: $color;
+        }
+
+ </style>
+  </head>
+     <body>
+        <ul>
+        <li><a href="https://www.bbc.com/news/world-us-canada-44955224">Click here for news!!</a></li>
+        <li><a href="https://www.dw.com/en/turkey-babies-behind-bars/a-49320769">Click here for news!!</a></li>
+        <li><a href="https://www.foxnews.com/world/hundreds-of-young-turkish-children-jailed-alongside-their-moms-as-part-of-a-post-coup-crackdown">Click here for news!!</a></li>
+</ul>
+        <form>
+        	<h4>name</h4>
+        	<input name="name" type="text">
+        	<h4>password</h4>
+        	<input name="name" type="number">
+            
+           
+        </form>
+        <button>click me!</button>
+
+        <p>this is parag</p>
+        <p>this is another parag</p>
+        <p class="screen-only">this is 3 parag</p>
+        <div class="container">
+        	<div> "It makes me angry because most of the people I was in prison with were fathers, so their children are growing up without their fathers, and none of them was involved in the coup attempt. I mean, hundreds of thousands of people's lives have just been destroyed through this." Pastor Andrew Brunson </div>
+        	<div>"Can't express my gratitude to the Canadian people, government and @JustinTrudeau for welcoming me to Canada. What an amazing, warm and respectful country. Thanks for accepting Turkish refugees into Canada as they escape #DictatorErdogan's oppression!" Enes Kanter</div>
+        	<div>"Hardly any area of public life is not in his hands. It would seem that Turkey's one-man-rule system knows no limits despite its economic cost, dissent within the ruling Justice and Development Party (AKP), and international criticism. But to liberal Turks and to Western observers, such a trend looks utterly unsustainable. In a democracy, leaders and systems are not forever.." Marc Pierini</div>
+        	<div> "Rather, the fall to 47 journalists in jail from 68 last year reflects the successful efforts by the government of President Recep Tayyip Erdogan to stamp out independent reporting and criticism by closing down more than 100 news outlets and lodging terror-related charges against many of their staff.."The New York-based Committee to Protect Journalists (CPJ</div>
+
+
+     </body>
+     <body>
+        <h1 align="center">BABIES ARE IN THE JAIL!!!</h1>
+
+        <div class="row">
+        	<div class="col-3">
+        		this is a section
+        	</div>
+        	<div class="col-3">
+        		this is another section
+        	</div>
+        	<div class="col-3">
+        		this is third section
+        	</div>
+</div>
+</body>
+  <body>          
+            Unordered List
+        	<ul>
+        		<li>item one</li>
+        		<li>item two</li>
+        		<li>item three</li>
+        	</ul>
+
+        	Ordered List
+        	<ol>
+        		<li>item one</li>
+        		<li>item two</li>
+        		<li>item three</li>
+        	</ol>
+   </body>   
+
+    
+</html>
